@@ -1,0 +1,17 @@
+body{
+    background-color: #272B30;
+}
+main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.maincontent{
+    width: 100%;
+    margin-top: 2%;
+}
+img{
+    width: 100%;
+    height: auto;
+}
