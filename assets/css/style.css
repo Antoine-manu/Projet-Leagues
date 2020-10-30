@@ -5,44 +5,58 @@ main{
     flex-direction: row;
 }
 .maincontent{
+    display: flex;
     width: 80%;
-}
-.othercontent{
-    background-color: green;
-    width: 20%;
+
 }
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 20px 20px;
+    padding: 20px;
     grid-template-areas:
       "Youtube Mail Twitter"
       "Facebook Adresse-Postal Instagram";
   }
   
   .Youtube { grid-area: Youtube; 
-border: solid 1px;
-
+border: solid 1px rgba(92, 87, 87, 0.493);
+text-align: center;
 }
   
   .Twitter {grid-area: Twitter;
-    border: solid 1px;
+    border: solid 1px rgba(92, 87, 87, 0.493);
+    text-align: center;
+    height: 200px;
 }
   
   .Facebook { grid-area: Facebook;
-    border: solid 1px;
+    border: solid 1px rgba(92, 87, 87, 0.493);
+    text-align: center;
 }
   
   .Instagram { grid-area: Instagram;
-    border: solid 1px;
+    border: solid 1px rgba(92, 87, 87, 0.493);
+    text-align: center;
 }
   
   .Mail { grid-area: Mail; 
-    border: solid 1px;
+    border: solid 1px rgba(92, 87, 87, 0.493);
+    text-align: center;
 }
   
   .Adresse-Postal { grid-area: Adresse-Postal; 
-    border: solid 1px;
+    border: solid 1px rgba(92, 87, 87, 0.493);
+    text-align: center;
+}
+.contact{
+    text-align: center;
+    font-weight: 900;
+    
+}
+
+body{
+    background-color: #272B30;
 }
   
