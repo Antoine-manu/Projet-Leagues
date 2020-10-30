@@ -11,3 +11,37 @@ main{
     background-color: green;
     width: 20%;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 20px;
+    grid-template-areas:
+      "Youtube Mail Twitter"
+      "Facebook Adresse-Postal Instagram";
+  }
+  
+  .Youtube { grid-area: Youtube; 
+border: solid 1px;
+}
+  
+  .Twitter {grid-area: Twitter;
+    border: solid 1px;
+}
+  
+  .Facebook { grid-area: Facebook;
+    border: solid 1px;
+}
+  
+  .Instagram { grid-area: Instagram;
+    border: solid 1px;
+}
+  
+  .Mail { grid-area: Mail; 
+    border: solid 1px;
+}
+  
+  .Adresse-Postal { grid-area: Adresse-Postal; 
+    border: solid 1px;
+}
+  
