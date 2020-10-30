@@ -15,6 +15,7 @@ img{
     width: 100%;
     height: auto;
 }
+<<<<<<< HEAD
 h1{
     color: white;
 }
@@ -25,3 +26,8 @@ p a {
     color: lightgray;
     text-decoration: underline;
 }
+=======
+html{
+    font-size: large;
+}
+>>>>>>> 5ae9318f74bbe3246a75c9dd289843f72583c73b
