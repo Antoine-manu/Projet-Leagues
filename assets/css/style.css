@@ -23,6 +23,7 @@ main{
   
   .Youtube { grid-area: Youtube; 
 border: solid 1px;
+
 }
   
   .Twitter {grid-area: Twitter;
