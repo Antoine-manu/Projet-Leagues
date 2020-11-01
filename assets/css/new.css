@@ -1,3 +1,148 @@
 body{
     background-color: #272B30;
 }
+main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.maincontent{
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.maincontent > img {
+    padding: 1%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3%;
+    padding: 1%;
+}
+
+.text{
+    align-content: center;
+    flex-grow: 1;
+    width: 100%;
+    padding: 1%;
+}
+h1{
+    color: white;
+}
+main h2{
+    border-top: solid 1px rgba(92, 87, 87, 0.493);
+    border-bottom: solid 1px rgba(92, 87, 87, 0.493);
+    color: white;
+    padding: 1%;
+    text-align: center;
+}
+p{
+    color: white;
+    font-size: 80%;
+}
+p a {
+    color: lightgray;
+    text-decoration: underline;
+}
+iframe{
+    width: 100%;
+    height: auto;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color:#1A1A1A;
+    font-size: 60%;
+}
+footer div{
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    padding: 1%;
+}
+footer h2{
+    color: white;
+    font-size: 80%;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    display: inline;
+}
+footer div:first-child{
+    display: flex;
+    flex-direction: column;
+}
+footer p{
+    color: grey;
+    width: 80%;
+}
+.formulaire{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.formulaire *{
+    align-self: center;
+}
+label{    
+    color: white;
+}
+input, textarea{
+    background-color: #272B30;
+    border: solid 1px rgba(92, 87, 87, 0.493);
+}
+article{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    border-bottom:solid 1px rgba(92, 87, 87, 0.493) ;
+}
+body > main > section > div:nth-child(3) > article:nth-child(2) > h2{
+    border-top: none;
+}
+
+article *{
+    padding: 1%;
+}
+article img{
+    width: 100%;
+    height: 100%;
+}
+button{
+    background-color: #272B30;
+    border: solid 1px rgba(92, 87, 87, 0.493);
+    margin-bottom: 2%;
+}
+@media screen and (min-width: 900px){
+    p{
+        color: white;
+        font-size: 150%;
+    }
+    main{
+        width: 70%;
+    }
+    footer{
+        flex-direction: row;
+        font-size: 100%;
+    }
+    footer h2{
+        font-size: 150%;
+
+    }
+    iframe{
+        margin-left: 25%;
+        width: 50%;
+        height: 100%;
+    }
+}

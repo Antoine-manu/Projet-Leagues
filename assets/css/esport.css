@@ -1,72 +1,94 @@
-body > main > section > div:nth-child(1) > h1{
-    font-weight: bold;
-    margin-top: 5%;
-    font-size: 500%;
+h1{
     color: white;
+    font-size: 400%;
 }
-body > main > section > div:nth-child(1) > img{
-    margin-top: 3%;
+h3{
+    color: white;
+    text-align: center;
 }
-body{
-    background-color: #272B30;
 
-}
-body > main > section > div:nth-child(2) > h2{
-    font-weight: bold;
-    margin-top: 10%;
-    font-size: 300%;
-    color: white;
-}
-body > main > section > div:nth-child(2) > img{
-    margin-top: 3%;
-    height: 30%;
-    width: 30%;
-}
-body > main > section > div:nth-child(3) > p{
-    margin-top: 5%;
-    font-size: 200%;
-}
-main{
-    width: 80%;
-    margin: auto;
-}
-body > main > section > div:nth-child(4) > h3{
-    font-weight: bold;
-    margin-top: 10%;
-    font-size: 300%;
-    color: white;
-}
-body > main > section > div:nth-child(4) > p{
-    margin-top: 5%;
-    font-size: 200%;
-}
-body > main > section > div:nth-child(5) > h3{
-    font-weight: bold;
-    margin-top: 10%;
-    font-size: 300%;
-    color: white;
-}
-body > main > section > div:nth-child(5) > p{
-    margin-top: 5%;
-    font-size: 200%;
-}
 .maincontent{
     display: flex;
     flex-direction: column;
 }
+.content{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 2%;
+}
 .maincontent div img{
     text-align: center;
 }
-h2{
+main{
+    width: 70%;
+    margin: auto;
+}
+body{
+    background-color: #272B30;
+}
+main h1,main h2, main h3{
+    border-top: solid 1px rgba(92, 87, 87, 0.493);
+    border-bottom: solid 1px rgba(92, 87, 87, 0.493);
+    color: white;
+    padding: 1%;
     text-align: center;
 }
-.image{
-    float: left;
-    width: 20%;
+main div{
+    margin: 2%;
 }
-.image + p{
-    float: right;
+p{
+    color: white;
+    font-size: 80%;
+    text-align: justify;
+
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.specialimg{
+    width: 100%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color:#1A1A1A;
+    font-size: 60%;
+}
+footer div{
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    padding: 1%;
+}
+footer h2{
+    color: white;
+    font-size: 80%;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    display: inline;
+}
+footer div:first-child{
+    display: flex;
+    flex-direction: column;
+}
+footer p{
+    color: grey;
+    width: 80%;
 }
 @media screen and (min-width: 900px) {
-
+    p{
+        font-size: 150%;
+    }
+    footer{
+        flex-direction: row;
+        font-size: 100%;
+    }
+    footer h2{
+        font-size: 150%;
+    }
 }
